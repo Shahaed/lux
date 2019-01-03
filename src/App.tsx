@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
-import './App.css';
-import logo from './logo.svg';
+import React, { Component } from "react";
+import "./App.css";
+import Login from "./Login";
+import logo from "./logo.svg";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Login />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -17,7 +19,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React Bad Formating
           </a>
         </header>
       </div>
